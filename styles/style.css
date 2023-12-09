@@ -1,0 +1,219 @@
+.navbar-brand img{
+    width: 15rem;
+}
+
+.navbar-nav{
+    font-size: 1.5rem;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0, 0, 0 , 0.2) !important;
+    /* width: 100% !important; */
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner{
+    background: linear-gradient(rgb(0, 0, 0 , 0.3) , rgb(0, 0, 0 , 0.3)) ,  url("../Assets/images/app-link-background.svg") no-repeat center/cover ;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.banner-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.appstore-android img{
+    height: 4.5rem;
+    width: 11rem;
+    margin-left: 10px;
+}
+
+.features img{
+    height: 15rem;
+    width: 11rem;
+}
+
+.home-3{
+    background: linear-gradient(rgb(0, 0, 0 , 0.1) , rgb(0, 0, 0 , 0.1)) ,  url("../Assets/images/banner-1.webp") no-repeat center/cover ;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-4{
+    background: linear-gradient(rgb(0, 0, 0 , 0.1) , rgb(0, 0, 0 , 0.1)) ,  url("../Assets/images/banner-2.webp") no-repeat center/cover ;
+    height: 100vh;
+    width: 100%;
+}
+
+.foot-form-div{
+    position: relative;
+}
+
+.foot-form-div .btn{
+    position: absolute;
+    top: 3px;
+    right: 0px;
+}
+
+.copyright-div p{
+    margin-bottom: 0px;
+}
+
+/* About Page designs */
+.about .banner{
+    background: linear-gradient(rgb(0, 0, 0 , 0.2) , rgb(0, 0, 0 , 0.2)) ,  url("../Assets/images/banner.webp") no-repeat center/cover ;
+    height: 100vh;
+    width: 100%; 
+}
+
+.banner-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.about-2-inner .a{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* menu page design */
+.menu{
+    background: linear-gradient(rgb(0, 0, 0 , 0.2) , rgb(0, 0, 0 , 0.2)) ,  url("../Assets/images/banner\ \(1\).webp") no-repeat center/cover ;
+    min-height: 100vh;
+    width: 100%;
+}
+.menu h1{
+    font-size: 30px;
+}
+
+.menu .modal img{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/* media query index.html */
+@media (max-width : 400px){
+   .appstore-android{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+   } 
+}
+
+@media (max-width : 350px){
+  .footer-inner1 .col{
+   text-align: center ;
+   margin-bottom: 40px !important;
+  }
+
+  .footer-inner1 .col h2{
+    margin-bottom: 10px !important;
+  }
+ }
+
+ /* media query about.html */
+@media (max-width : 1000px){
+    .banner-inner h1{
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width : 575px){
+    .banner-inner h1{
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
+    .about-2-inner{
+        flex-direction: column;
+    }
+
+    .about-2-inner .a{
+      flex-direction: column-reverse;
+    }
+
+    .about-2-inner .a{
+        text-align: center;
+      }
+
+    .footer-about ul h3{
+        font-size: 1.1rem;
+    }
+
+    .social-icons{
+       margin: auto;
+    }
+    
+}
+
+
+
+/* media query menu.html */
+@media (max-width : 575px){
+    .main-course , .drinks , .wraps , .desserts{
+        width: 100vw !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* media query franchise.html */
+@media (max-width : 575px){
+    .franchise-1 video{
+        width: 100%;
+    }
+    .franchise-1 h1{
+       font-size: 28px;
+       font-weight: bold;
+       margin-top: 350px;
+    }
+
+    .franchise-1 .btn{
+       margin: 10px;
+     }
+    .mission-main{
+        margin-top: 350px; 
+    }
+    .mission , .mission p{
+        width: 100% !important;
+    }
+
+    .franchise-3 .row{
+        margin-left: 0px !important;
+    }
+
+    .franchise-4 img{
+        height: 200px !important;
+        width: 300px;
+    }
+}
+
+
+/* max-width - 550px  (<=550px) */
+/* min-width - 550px  (>=550px) */
